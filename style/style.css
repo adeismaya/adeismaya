@@ -1,0 +1,218 @@
+/* start font*/
+@import url('https://fonts.googleapis.com/css?family=Merriweather');
+/* end font */
+
+/* start Body */
+body {
+    background-color: rgb(249, 252, 249);
+    color:black;
+    font-family: Merriweather, Helvetica,Arial, sans-serif;
+    font-size: 20px;
+    line-height: 1.6em;
+    margin: 0%;
+    padding: 0%; 
+}
+
+/* End Body */ 
+/* Start Debug */
+.bg-blue {
+    background-color: rgba(0, 162, 255, 0.267);
+}
+.bg-greenyellow {
+    background-color: green;
+}
+.bg-white {
+    background-color: white;
+}
+
+
+/* End Debug*/
+
+/* Start container*/
+.container {
+    margin: 10px auto;
+    overflow: auto;
+    width: 90%;
+} 
+.container-full {
+    margin: 10px auto;
+    overflow: auto;
+    width: 100%;
+
+}
+/* End Container */
+
+/* Start logo*/
+.logo {
+    text-align: center;
+}
+/* End logo*/
+
+/* start hiperlink*/
+a:link,
+a:visited {
+    color: rgb(10, 10, 10);
+    text-decoration: none;
+}
+a:hover,
+a:visited {
+        color: black;
+        text-decoration: underline;
+}
+/* End hiperlink*/
+
+/* menu primer*/
+.menu-primer{
+
+}
+.menu-primer ul{
+    background-color: rgb(87, 236, 192);
+    border-radius: 4px;
+    text-align: center;
+    box-shadow:
+        0 3px 5px -1px rgba(0, 0, 0, 0),
+        0 6px 10px 0   rgba(24, 23, 23, 0),
+        0 1px 18px 0   rgba(23, 24, 23, 0);
+}
+    .menu-primer li {
+        border-right: 1px solid grid-auto-rows;
+        display: inline-block;
+    }
+    .menu-primer a {
+        color:#0c0b0b;
+        font-size: 13px;
+        padding: 10px 20px;
+    }
+    .menu-primer a:hover {
+        background-color: rgb(8, 8, 8);
+        color: #0c0b0b;
+        text-decoration: none;
+    }
+    .menu-primer a.activ {
+        background-color: rgb(10, 10, 10);
+        color:black;
+        text-decoration: underline;
+    }
+/* End primer*/
+
+/* start heading*/
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+h2 {
+    font-size: 28px;
+}
+h3 {
+    font-size: 24px;
+}
+h4 {
+    font-size: 18px;
+}
+h5 {
+    font-size: 14px;
+}
+h6 {
+    font-size: 13px;
+}
+/* end heading*/
+
+/* start jumbotron */
+.jumbotron {
+    background-color: rgb(87, 236, 192);
+    border: 1px solid #c7f0f1;
+    border-radius: 4px;
+    padding: 20px 0;
+}
+.jumbotron h1{
+    font-size: 32px;
+    padding: 0 20px;
+}
+.jumbotron h3{
+    font-size: 20px;
+    padding: 0 20px;
+
+}
+/* end jumbotron*/
+/* start main */
+.main-one {
+    float: left;
+    width: 49%;
+}
+.main-two {
+    float: right;
+    width: 49%
+}
+/* end main*/
+
+/* start box*/
+.heading {
+    background-color: azure;
+    border: 1px solid #c7f0f1;
+    border-radius: 3px 3px 0 0;
+    margin: 0;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+.heading h4 {
+    font-size: 14px;
+    margin:0;
+}
+.box-isi {
+    background-color: rgb(245, 252, 251);
+    background-color: rgb(245, 252, 251);
+    border: 1px solid #c7f0f1;
+    border-top: 3px 3px 0 0;
+    margin: 0;
+    padding: 10px 20px;
+}
+/* end box*/
+/* start sekunder*/
+.menu-sekunder {
+    background-color: aliceblue;
+    border-bottom: 1px solid aliceblue;
+    border-top: 1px solid aliceblue;
+    overflow: 0 auto;
+    padding: 10px 0;
+}
+.menu-sekunder h4 {
+    font-size: 14px;
+    margin: auto;
+    text-transform: uppercase;
+}
+.menu-sekunder ul {
+    padding: 0;
+}
+.menu-sekunder li {
+    list-style: disc;
+} 
+.menu-sekunder li a,
+.menu-sekunder p {
+    font-size: 15px
+}   
+    list-style: disc;
+} 
+.menu-sekunder-three,
+.menu-sekunder-two,
+.menu-sekunder-one {
+    float: left;
+}
+.menu-sekunder-one {
+    width: 30%;
+}
+.menu-sekunder-two,
+.menu-sekunder-one {
+    float: left;
+}
+.menu-sekunder-two {
+    width: 30%;
+}
+.menu-sekunder-three {
+    float: left;
+}
+
+
+.menu-sekunder li img {
+    vertical-align: middle;
+}
+/* end sekunder */
